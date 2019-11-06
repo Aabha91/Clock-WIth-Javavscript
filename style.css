@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  body {
+    background-color: rgb(147, 204, 241);
+  }
+
+  .heading-analog{
+    font-family: sans-serif;
+    font-size: xx-large;
+    float: center;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .clock-border{
+    height: 525px;
+    width: 525px;
+    background-color: #fff;
+    border: 3px solid #000;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+  .clock {
+    height: 500px;
+    width: 500px;
+    background-color: #fff;
+    border-radius: 100%;
+    border: 3px solid #aaaaaa;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+  
+
+  .twelve {
+    position: absolute;
+    width: 53px;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: 0 auto;
+    font-size: -webkit-xxx-large
+  }
+  
+  .three {
+    position: absolute;
+    width: 26px;
+    height: 42px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto 0;
+    font-size: -webkit-xxx-large
+  }
+  
+  .six {
+    position: absolute;
+    width: 3px;
+    height: 15px;
+    left: 0;
+    bottom: 34px;
+    right: 0;
+    margin: 0 auto;
+    font-size: -webkit-xxx-large
+  }
+  
+  .nine {
+    position: absolute;
+    width: 5px;
+    height: 41px;
+    top: 0;
+    bottom: 0;
+    left: 8px;
+    margin: auto 0;
+    font-size: -webkit-xxx-large
+  }
+
+  .center {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    background: #000;
+  }
+  
+  #seconds {
+    position: absolute;
+    height: 160px;
+    width: 2px;
+    left: 0;
+    right: 0;
+    bottom: 160px;
+    top: 0px;
+    margin: auto;
+    background: #000;
+    -webkit-transform-origin: bottom;
+    background: #ff4136;
+  }
+  
+  #minutes {
+    position: absolute;
+    height: 200px;
+    width: 2px;
+    left: 0;
+    right: 0;
+    bottom: 200px;
+    top: 0px;
+    margin: auto;
+    background: #000;
+    -webkit-transform-origin: bottom;
+  }
+  
+  #hours {
+    position: absolute;
+    height: 80px;
+    width: 6px;
+    left: 0;
+    right: 0;
+    bottom: 80px;
+    top: 0px;
+    margin: auto;
+    background: #000;
+    -webkit-transform-origin: bottom;
+  }
+
+
+  .showTime{
+    height: 66px;
+    width: 522px;
+    position: absolute;
+    color: #17D4FE;
+    font-size: 50px;
+    font-family: Georgia;
+    letter-spacing: 7px;
+    border: 3px solid #000;
+    text-align: center;
+    
+  }
